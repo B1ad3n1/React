@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Header {
+    background-color: #F4F9E2;
+    width: 1440px;
+    padding: 20px 40px;
+  }
+  
+  .UppartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .UppartHeader img {
+    height: 119px;
+  }
+  
+  .UppartHeader a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    margin: -300px;
+    font-weight: 400;
+  }
+  
+  .UppartHeader a:hover {
+    text-decoration: underline;
+  }
+  
+  .UppartHeader button {
+    background-color: #F9B640;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .UppartHeader button:hover {
+    background-color: #FF9900;
+  }
+  
+  .DownPartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 40px auto;
+  }
+  
+  .DownPartHeader h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #22356F;
+    margin-bottom: 15px;
+  }
+  
+  .DownPartHeader p {
+    font-size: 24px;
+    color: #22356F;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  .DownPartHeader img {
+    width: 350px;
+    max-width: 100%;
+  }

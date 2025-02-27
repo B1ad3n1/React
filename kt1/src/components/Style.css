@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+html, body {
+    font-family: Abeezee;
+    max-width: 1440px;
+    max-height: auto;
+    color: #22356F;
+}
+
+.WhatWeOffer {
+    background-color: #62D0DF;
+    width: 1440px;
+}
+
+.WhatWeOffer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.WhatWeOffer div div{
+    flex-direction: column;
+    width: 920px;
+    padding-right: 380px;
+}
+
+.WhatWeOffer div div h3 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+
+  .WhatWeOffer div div p {
+    font-size: 24px;
+    color: #FFFFFF;
+    max-width: 600px;
+    width: 520px;
+    line-height: 1.5;
+    margin: 50px;
+  }
+
+  .WhatWeOffer div img {
+    width: 520px;
+    height: 607;
+    max-width: 100%;
+  }
+
+.TrueStory {
+    background-color: #FFFFFF;
+}
+
+.TrueStory div {
+    margin: 7% 24%;
+    color: #22356F;
+    font-size: 24px;
+}
+
+.informationCards{
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.RentalByke {
+    background-color: #FFFFFF;
+    width: 1440px;
+}
+
+.RentalByke {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.RentalByke div{
+    flex-direction: column;
+    width: 920px;
+    padding-right: 380px;
+}
+
+.RentalByke div h3 {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 50px;
+    margin-bottom: 15px;
+  }
+
+  .RentalByke div p {
+    font-size: 24px;
+    max-width: 600px;
+    width: 440px;
+    line-height: 1.5;
+    margin: 50px;
+  }
+
+  .RentalByke img {
+    width: 637px;
+    height: 800px;
+    max-width: 100%;
+  }
